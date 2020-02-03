@@ -19,8 +19,8 @@ if (array[i] > array[i + 1])
 test = array[i + 1];
 array[i + 1] = array[i];
 array[i] = test;
-}
 print_array(array, size);
+}
 }
 verif--;
 }
