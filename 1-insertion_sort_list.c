@@ -24,9 +24,9 @@ s->prev = s->prev->prev;
 s->next->prev = s;
 if (!s->prev)
 *list = s;
-print_list(*list);
 else
 s->prev->next = s;
+print_list(*list);
 }
 m = m->next;
 }
