@@ -14,7 +14,6 @@ for (i = 0; i < size; i++)
 {
 m = i;
 for (j = i + 1; j < size; j++)
-{
 if (array[m] > array[j])
 m = j;
 if (i != m)
@@ -22,8 +21,7 @@ if (i != m)
 temp = array[i];
 array[i] = array[m];
 array[m] = temp;
-}
-}
 print_array(array, size);
+}
 }
 }
